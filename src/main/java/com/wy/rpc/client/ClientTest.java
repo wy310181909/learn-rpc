@@ -1,7 +1,7 @@
 package com.wy.rpc.client;
 
-import com.sean.io.test.proxy.MyProxy;
-import com.sean.io.test.service.Car;
+import com.wy.rpc.client.proxy.MyProxy;
+import com.wy.rpc.common.service.Car;
 import org.junit.Test;
 
 import java.io.IOException;

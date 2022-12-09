@@ -1,6 +1,6 @@
 package com.wy.rpc.client.rpc;
 
-import com.sean.io.test.util.Packmsg;
+import com.wy.rpc.common.util.Packmsg;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ConcurrentHashMap;

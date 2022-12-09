@@ -1,8 +1,8 @@
 package com.wy.rpc.client.rpc.transport;
 
 
-import com.bjmashibing.system.rpcdemo.rpc.ResponseMappingCallback;
-import com.bjmashibing.system.rpcdemo.util.Packmsg;
+import com.wy.rpc.client.rpc.ResponseMappingCallback;
+import com.wy.rpc.common.util.Packmsg;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 

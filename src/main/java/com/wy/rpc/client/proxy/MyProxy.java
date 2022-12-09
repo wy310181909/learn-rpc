@@ -1,9 +1,10 @@
 package com.wy.rpc.client.proxy;
 
 
-import com.sean.io.test.rpc.Dispatcher;
-import com.sean.io.test.rpc.protocol.MyContent;
-import com.sean.io.test.rpc.transport.ClientFactory;
+
+import com.wy.rpc.client.rpc.transport.ClientFactory;
+import com.wy.rpc.common.rpc.protocol.MyContent;
+import com.wy.rpc.server.rpc.Dispatcher;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

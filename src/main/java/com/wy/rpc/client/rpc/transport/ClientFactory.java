@@ -1,9 +1,9 @@
 package com.wy.rpc.client.rpc.transport;
 
 
-import com.sean.io.test.rpc.protocol.Myheader;
 import com.wy.rpc.client.rpc.ResponseMappingCallback;
 import com.wy.rpc.common.rpc.protocol.MyContent;
+import com.wy.rpc.common.rpc.protocol.Myheader;
 import com.wy.rpc.common.rpc.transport.ServerDecode;
 import com.wy.rpc.common.util.SerDerUtil;
 import io.netty.bootstrap.Bootstrap;
@@ -20,7 +20,7 @@ import java.util.Random;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ConcurrentHashMap;
 
-import static com.sean.io.test.rpc.protocol.Myheader.createHeader;
+import static com.wy.rpc.common.rpc.protocol.Myheader.createHeader;
 
 /**
  * @author: 
